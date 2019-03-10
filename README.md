@@ -4,7 +4,7 @@ This uses [doT.js](http://olado.github.io/doT/index.html) to walk through direct
 
 ## Installation:
 ```bash
-npm i -s dot-all
+npm i -s dotall
 ```
 
 
