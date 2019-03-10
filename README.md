@@ -26,18 +26,21 @@ dotAll.renderDir('template_directory', {
 
 The method `renderDir` walks through a directory and renders all files, directories, and filenames using doT. It takes two arguments: 
   
-    `templateDirPath`   |     *String*    | "path/to/templates"
-    `data`              |     *Object*    | { app: { name: "FlamingoApp" } }
+argument name | data type | example
+--- | --- | ---
+*templateDirPath* | *String* | `"path/to/templates"`
+*data* | *Object* | `{ app: { name: "FlamingoApp" } }`
 
 ### `.render(templateString, data)`
 
 The method `render` takes a string and renders it using doT. 
 It takes two arguments: 
 
-    `templateString`    |     *String*    |   "Welcome to the {{_self.app.name}}!"
-    `data`              |     *Object*    |   { app: { name: "FlamingoApp" } }
+argument name | data type | example
+--- | --- | ---
+*templateString* | *String* | `"Welcome to the {{_self.app.name}}!"`
+*data* | *Object* | `{ app: { name: "FlamingoApp" } }`
 
-----
 
 ## Templates
 Template tags are formed using two consecutive curly brackets and an underscore, and rely on `self` for data:
@@ -45,3 +48,7 @@ Template tags are formed using two consecutive curly brackets and an underscore,
 ```html
 <h1>{{_self.app.name}}</h1>
 ```
+
+Here's a list of automagically available properties of `self`:
+
+    ``
