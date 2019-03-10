@@ -1,7 +1,7 @@
 {
   "name": "dotall",
   "version": "1.0.0",
-  "description": "Moustache-like ()\u001b[Ddot\u001b[C\u001b[D) template processing across files' contents and names.",
+  "description": "Run doT (JavaScript template engine) over all files in a directory, including their filenames",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
