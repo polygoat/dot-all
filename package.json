@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": "git@github.com:polygoat/dot-all.git",
+  "author": "Dan Borufka",
   "license": "ISC",
   "dependencies": {
     "dot": "^1.1.2",
