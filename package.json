@@ -1,6 +1,6 @@
 {
   "name": "dotall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Moustache-like ()\u001b[Ddot\u001b[C\u001b[D) template processing across files' contents and names.",
   "main": "index.js",
   "scripts": {
