@@ -1,6 +1,6 @@
 {
   "name": "dotall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run doT (JavaScript template engine) over all files in a directory, including their filenames",
   "keywords": [
     "template",
