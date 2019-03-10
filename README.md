@@ -21,26 +21,25 @@ dotAll.renderDir('template_directory', {
 
 ```
 
-----
+## Methods:
 ### `.renderDir(templateDirPath, data)`
 
 The method `renderDir` walks through a directory and renders all files, directories, and filenames using doT. It takes two arguments: 
   
-    `templateDirPath` | *String* | "path/to/templates"
-
-    `data`            | *Object* | { app: { name: "FlamingoApp" } }
+    `templateDirPath`   |     *String*    | "path/to/templates"
+    `data`              |     *Object*    | { app: { name: "FlamingoApp" } }
 
 ### `.render(templateString, data)`
 
 The method `render` takes a string and renders it using doT. 
 It takes two arguments: 
 
-    `templateString`  | *String* | "Welcome to the {{_self.app.name}}!"
-    `data`            | *Object* | { app: { name: "FlamingoApp" } }
+    `templateString`    |     *String*    |   "Welcome to the {{_self.app.name}}!"
+    `data`              |     *Object*    |   { app: { name: "FlamingoApp" } }
 
 ----
 
-## **Templates**
+## Templates
 Template tags are formed using two consecutive curly brackets and an underscore, and rely on `self` for data:
 
 ```html
